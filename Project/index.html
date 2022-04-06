@@ -1,58 +1,87 @@
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<title>Muzica pentru tine</title>
+<html lang="en">
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+        /* Style the header */
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 25px;
+            text-align: center;
+            font-size: 60px;
+        }
 
 
+        /* Create three unequal columns that floats next to each other */
+        .column {
+            float: right;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+        }
+
+        /* Left and right column */
+        .column.side {
+            width: 25%;
+            text-align: center;
+            font-size: 200%;
+        }
+
+        /* Middle column */
+        .column.middle {
+            width: 50%;
+            text-align: center;
+            font-size: 200%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: #ffff99;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            .column.side, .column.middle {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
 <body>
-<!-- Slide Show -->
-<section>
-    <img class="mySlides" src="Logo.png"
-         style="width:25%">
-</section>
 
-    <!-- Navigation -->
-<nav class="#">
-    <a href="#home" class="#">Home</a>
-    <a href="#band" class="#">About</a>
-    <a href="#contact" class="#">Contact</a>
-</nav>
+<img src="Logo.png" alt="Trumpet">
 
+<div class="header">
+    <h2>Muzica pentru tine</h2>
+</div>
 
-<!-- Band Description -->
-<section class="w3-container w3-center w3-content" style="max-width:600px">
-    <h2 class="w3-wide"></h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</section>
+<div class="row">
+    <div class="column side" style="background-color:#aaa;">Magazin de instrumente</div>
+    <div class="column middle" style="background-color:#bbb;">Practica</div>
+    <div class="column side" style="background-color:#ccc;">Teorie</div>
+</div>
 
-<!-- Band Members -->
-<section class="w3-row-padding w3-center w3-light-grey">
-    <article class="w3-third">
-        <p>John</p>
-        <img src="" alt="Random Name" style="width:100%">
-        <p>John is the smartest.</p>
-    </article>
-    <article class="w3-third">
-        <p>Paul</p>
-        <img src="" alt="Random Name" style="width:100%">
-        <p>Paul is the prettiest.</p>
-    </article>
-    <article class="w3-third">
-        <p>Ringo</p>
-        <img src="" alt="Random Name" style="width:100%">
-        <p>Ringo is the funniest.</p>
-    </article>
-</section>
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-    <a href="#"><i class="fa fa-facebook-official"></i></a>
-    <a href="#"><i class="fa fa-pinterest-p"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-flickr"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-</footer>
+<div class="footer">
+    <p>Footer</p>
+</div>
 
 </body>
 </html>
