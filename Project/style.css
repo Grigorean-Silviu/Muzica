@@ -1,10 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 
 * {
     box-sizing: border-box;
+
 }
 
 body {
     background-color: lightblue;
+
+
+
 }
 /* Style the header */
 
@@ -13,6 +21,9 @@ body {
     padding: 25px;
     text-align: center;
     font-size: 60px;
+
+
+
 }
 
 
@@ -21,6 +32,7 @@ body {
     float: right;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
+    width: 100%;
 }
 
 /* Left and right column */
@@ -28,6 +40,9 @@ body {
     width: 25%;
     text-align: center;
     font-size: 150%;
+
+
+
 }
 
 /* Middle column */
@@ -37,7 +52,8 @@ body {
     font-size: 150%;
 }
 
-/* Clear floats after the columns */
+
+
 
 
 /* Style the footer */
@@ -45,11 +61,8 @@ body {
     background-color: #ffff99;
     padding: 10px;
     text-align: center;
+    width: 100%;
+    margin: 0%;
 }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column.side, .column.middle {
-        width: 100%;
-    }
-}
+
 
