@@ -36,9 +36,18 @@ body {
 }
 
 /* Left and right column */
-.column.side {
+.column.side.left {
     width: 25%;
     text-align: center;
+    font-size: 150%;
+
+
+
+}
+.column.side.right {
+
+    width: 25%;
+    text-align: centre;
     font-size: 150%;
 
 
@@ -62,7 +71,7 @@ body {
     padding: 10px;
     text-align: center;
     width: 100%;
-    margin: 0%;
+
 }
 
 
