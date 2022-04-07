@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,9 +13,16 @@
 
 </head>
 <body>
-
+<ul>
+    <li><a href="home">Home</a></li>
+    <li><a href="news">News</a></li>
+    <li><a href="contact">Contact</a></li>
+</ul>
 
 <img src="Logo.png" alt="Trumpet">
+
+
+
 
 <div class="header">
     <h1>Muzica pentru tine</h1>
@@ -24,13 +31,13 @@
 <div class="row">
     <div class="column side right" style="background-color:#aaa;">Magazin de instrumente</div>
     <div class="column middle" style="background-color:#bbb;">Practica</div>
-    <div class="column side left " style="background-color:#ccc;">Teorie
-        <img src="teorie.png" alt="Norway" style="width: 100%"></div>
+    <div class="column side left " style="background-color:#ccc;">Teorie</div>
 </div>
 
 <div class="footer">
     <p>Footer</p>
 </div>
+
 
 
 </body>

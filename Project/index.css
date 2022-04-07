@@ -8,12 +8,7 @@ html, body {
 
 }
 
-body {
-    background-color: lightblue;
 
-
-
-}
 /* Style the header */
 
 .header {
@@ -47,7 +42,7 @@ body {
 .column.side.right {
 
     width: 25%;
-    text-align: centre;
+    text-align: center;
     font-size: 150%;
 
 
@@ -72,6 +67,36 @@ body {
     text-align: center;
     width: 100%;
 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 
 
