@@ -14,9 +14,9 @@
 </head>
 <body>
 <ul>
-    <li><a href="home">Home</a></li>
-    <li><a href="news">News</a></li>
-    <li><a href="contact">Contact</a></li>
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
 </ul>
 
 <img src="Logo.png" alt="Trumpet">
@@ -31,7 +31,7 @@
 <div class="row">
     <div class="column side right" style="background-color:#aaa;">Magazin de instrumente</div>
     <div class="column middle" style="background-color:#bbb;">Practica</div>
-    <div class="column side left " style="background-color:#ccc;">Teorie</div>
+    <a href="about.html"><div class="column side left " style="background-color:#ccc;">Teorie</div></a>
 </div>
 
 <div class="footer">
