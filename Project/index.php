@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title></title>
+    <title>Practica si teorie pentru muzica de fanafara</title>
+
     <link rel="stylesheet" type="text/css" href="index.css">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="teorie si practica la instrumente pentru incepatori">
 
 
 
