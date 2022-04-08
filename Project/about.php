@@ -35,9 +35,7 @@
     Perioada clasică și romantică (1750-1910): muzica rămâne tonală, dar devine omofonă. Pianul capătă o importanță deosebită.
     Secolul XX: Noi experiențe muzicale atonale, neoclasicism, jazz, blues, rock, etc. La începutul secolului al XX-lea, Ernst Kurth (1886-1946) a propus idea conform căreia muzica este în primul rând o senzație psihologică.
     În România au fost compuse imnuri la mănăstirea Cozia în secolele al XIV-lea și al XV-lea. Muzica laică a fost cultivată din secolul al XVII-lea la curțile domnești din București și Iași. Conservatorul de Muzică și Declamație, cu filiale la București și Iași, a fost înființat în anul 1864.</h4>
-<div class="footer">
-    <p>Footer</p>
-</div>
+<footer class="footer">FOOTER</footer>
 
 
 
