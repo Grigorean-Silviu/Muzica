@@ -29,9 +29,9 @@
 </div>
 
 <div class="row">
-    <div class="column side right" style="background-color:#aaa;">Magazin de instrumente</div>
-    <div class="column middle" style="background-color:#bbb;">Practica</div>
-    <a href="about.html"><div class="column side left " style="background-color:#ccc;">Teorie</div></a>
+    <a href="magazin.html"><div class="column side right" style="background-color:#aaa;">Magazin de instrumente</div>
+    <a href="practica.html"><div class="column middle" style="background-color:#bbb;">Practica</div>
+    <a href="teorie.html"><div class="column side left " style="background-color:#ccc;">Teorie</div></a>
 </div>
 
 <div class="footer">
