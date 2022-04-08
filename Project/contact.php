@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 
-    <<meta name="description" content="Contact magazin de instrumente pentru fanfara">
+    <meta name="description" content="Contact magazin de instrumente pentru fanfara">
 
 
 
@@ -15,11 +15,11 @@
 <body>
 <ul>
     <li><a href="home.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a class="active" href="contact.html">Contact</a></li>
+    <li><a href="about.php">About</a></li>
+    <li><a class="active" href="contact.php">Contact</a></li>
 </ul>
 
-<img src="Logo.png" alt="Trumpet">
+<img src="assets/images/Logo.png" alt="Trumpet">
 
 
 

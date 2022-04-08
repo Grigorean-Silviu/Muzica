@@ -31,17 +31,17 @@ html, body {
 }
 
 /* Left and right column */
-.column.side.left {
+.column-side-left {
     width: 25%;
     text-align: center;
     font-size: 150%;
-    background-image: url("./teorie.png");
+    background-image: url("../../teorie.png");
     background-size: 100%;
 
 
 
 }
-.column.side.right {
+.column-side-right {
 
     width: 25%;
     text-align: center;
@@ -52,7 +52,7 @@ html, body {
 }
 
 /* Middle column */
-.column.middle {
+.column-middle {
     width: 50%;
     text-align: center;
     font-size: 150%;
@@ -68,6 +68,7 @@ html, body {
     padding: 10px;
     text-align: center;
     width: 100%;
+
 
 
 }
