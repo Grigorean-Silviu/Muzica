@@ -5,22 +5,37 @@
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
     <meta name="description" content="teorie si practica la instrumente pentru incepatori">
-
+    <meta name="keywords"
+          content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-<nav>
+<nav class="nav">
     <ul>
         <li><img class="imagine" src="assets/images/Logo.png" alt="Trumpet"></li>
-        <li><a class="active" href="index.php">Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="contact.php">Contact</a></li>
+        <li class="dropdown">
+            <button class="dropbtn">Contul meu</button>
+            <div class="dropdown-content">
+                <a href="teorie.php">Teorie</a>
+                <a href="practica.php">Practica</a>
+                <a href="magazin.php">Magazin de instrumente</a>
+            </div>
+        <li><a href="#">Login</a> </li>
+        <li style="float:right margin-left: auto"><a href="contact.php">Contact</a></li>
+        <li style="float:right"><a href="about.php">Despre</a></li>
+        <li style="float:right"><a class="active" href="index.php">Acasa</a></li>
+
+
     </ul>
 
 </nav>
+
 <header class="header">
     <h1>Muzica pentru tine</h1>
 
 </header>
+
 <section>
     <div class="row">
         <a href="magazin.php">
@@ -36,8 +51,10 @@
 </section>
 
 
-
-<footer class="footer">FOOTER</footer>
+<footer>
+    <p>Author: Hege Refsnes<br>
+        <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
 
 
 </body>

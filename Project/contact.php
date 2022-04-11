@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 
     <meta name="description" content="Contact magazin de instrumente pentru fanfara">
-
-
-
-
+    <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
-<ul>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="about.php">About</a></li>
-    <li><a class="active" href="contact.php">Contact</a></li>
-</ul>
+<nav>
+    <ul>
+        <li><img class="imagine" src="assets/images/Logo.png" alt="Trumpet"></li>
+        <li style="float:right"><a class="active" href="contact.php">Contact</a></li>
+        <li style="float:right"><a href="about.php">Despre</a></li>
+        <li style="float:right"><a href="index.php">Acasa</a></li>
+    </ul>
 
-<img src="assets/images/Logo.png" alt="Trumpet">
+</nav>
 
 
 
-
-<div class="header">
+<header class="header">
     <h1>Contact</h1>
-</div>
+</header>
+
 
 <address>
     Mail <a href="mailto:silviu.grigorean01@e-uvt.ro">Grigorean Silviu</a><br>
@@ -35,7 +36,7 @@
 
 </address>
 <div class="container">
-    <form action="/action_page.php">
+    <form action="">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -59,7 +60,6 @@
 <div class="footer">
     <p>Footer</p>
 </div>
-
 
 
 </body>

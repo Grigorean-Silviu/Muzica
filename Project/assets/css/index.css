@@ -12,14 +12,14 @@ html, body {
 /* Style the header */
 
 .header {
-    background-color: #f1f1f1;
-    padding: 25px;
+    background-color: #f2f2f2;
     text-align: center;
+    padding: 25px;
     font-size: 60px;
-
-
-
+    z-index: -1;
 }
+
+
 
 
 /* Create three unequal columns that floats next to each other */
@@ -58,20 +58,15 @@ html, body {
     font-size: 150%;
 }
 
-
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 15px;
     background-color: #333;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-}
-
-li {
-    float: left;
+    display: flex;
 }
 
 li a {
@@ -83,24 +78,67 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #fffcfc;
 }
 
 .active {
     background-color: #4CAF50;
 }
-.footer {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/
-    height: 40px;
-    background: grey;
+footer {
     text-align: center;
+    padding: 3px;
+    background-color: #8f8686;
+    color: white;
 }
 .imagine{
-    height: 46px;
+    height: 48px;}
+.dropdown{
+
+    background-color: #212121;
+
+
 }
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: #333;
+}
+.dropdown:hover .dropbtn {
+    background-color: #4CAF50;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+    color:black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+li {
+    border-right:1px solid #bbb;
+}
+
 
 
