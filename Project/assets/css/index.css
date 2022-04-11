@@ -78,7 +78,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #fffcfc;
+    background-color: #4CAF50;
 }
 
 .active {
@@ -92,19 +92,18 @@ footer {
 }
 .imagine{
     height: 48px;}
-.dropdown{
 
-    background-color: #212121;
-
-
-}
 .dropbtn {
+    background: none;
+    padding: 14px 16px;
+    border: none;
+
+    outline: none;
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+
     text-decoration: none;
-    background: #333;
 }
 .dropdown:hover .dropbtn {
     background-color: #4CAF50;
@@ -130,15 +129,13 @@ footer {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #4CAF50;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
-li {
-    border-right:1px solid #bbb;
-}
+
 
 
 

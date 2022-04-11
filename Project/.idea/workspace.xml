@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="08/04/2022">
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="11/04/2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +46,9 @@
     <include_path>
       <path value="" />
     </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="27PeinM0r4nSCNKxTKpgoJ9O1eF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,7 +95,7 @@
       <workItem from="1649337774781" duration="99000" />
       <workItem from="1649400248944" duration="621000" />
       <workItem from="1649407717422" duration="6486000" />
-      <workItem from="1649659461783" duration="12650000" />
+      <workItem from="1649659461783" duration="16690000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649416163867</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="11/04/2022">
+      <created>1649672509393</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649672509393</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="06/04/2022" />
     <MESSAGE value="07/04/2022" />
     <MESSAGE value="08/04/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="08/04/2022" />
+    <MESSAGE value="11/04/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/04/2022" />
   </component>
 </project>
