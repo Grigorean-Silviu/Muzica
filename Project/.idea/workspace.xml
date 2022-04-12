@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="11/04/2022">
-      <change afterPath="$PROJECT_DIR$/assets/css/column.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/despre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="12/04/2022">
+      <change beforePath="$PROJECT_DIR$/despre.php" beforeDir="false" afterPath="$PROJECT_DIR$/despre.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +95,7 @@
       <workItem from="1649400248944" duration="621000" />
       <workItem from="1649407717422" duration="6486000" />
       <workItem from="1649659461783" duration="17178000" />
-      <workItem from="1649746443674" duration="14767000" />
+      <workItem from="1649746443674" duration="15164000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -205,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649677909899</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="12/04/2022">
+      <created>1649762784177</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1649762784177</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +224,7 @@
     <MESSAGE value="07/04/2022" />
     <MESSAGE value="08/04/2022" />
     <MESSAGE value="11/04/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/04/2022" />
+    <MESSAGE value="12/04/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/04/2022" />
   </component>
 </project>

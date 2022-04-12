@@ -73,7 +73,7 @@
     </h4>
 </section>
 <div class="container">
-    <img src="assets/images/logo.png">
+    <img src="assets/images/logo.png" alt="logo">
 </div>
 <table class="container">
     <tr>
