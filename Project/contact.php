@@ -2,8 +2,10 @@
 <html lang="ro">
 <head>
     <title>Contact</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 
     <meta name="description" content="Contact magazin de instrumente pentru fanfara">
@@ -12,52 +14,40 @@
 
 </head>
 <body>
-<nav>
-    <ul>
-        <li><img class="imagine" src="assets/images/Logo.png" alt="Trumpet"></li>
-        <li style="float:right"><a class="active" href="contact.php">Contact</a></li>
-        <li style="float:right"><a href="about.php">Despre</a></li>
-        <li style="float:right"><a href="index.php">Acasa</a></li>
-    </ul>
 
+<nav class="nav">
+    <ul class="container">
+        <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
+        <li class="dropdown">
+            <button class="dropbtn">Contul meu</button>
+            <div class="dropdown-content">
+                <a href="#">Intra in cont</a>
+                <a href="teorie.php">Teorie</a>
+                <a href="practica.php">Practica</a>
+                <a href="magazin.php">Magazin de instrumente</a>
+            </div>
+        <li><a class="active" href="contact.php">Contact</a></li>
+        <li><a href="despre.php">Despre</a></li>
+        <li><a href="index.php">Acasa</a></li>
+    </ul>
 </nav>
 
 
 
-<header class="header">
+
+<header class="header container">
     <h1>Contact</h1>
 </header>
 
 
-<address>
+<address class="container">
     Mail <a href="mailto:silviu.grigorean01@e-uvt.ro">Grigorean Silviu</a><br>
     Visit us at:<br>
     Example.com<br>
 
-</address>
-<div class="container">
-    <form action="">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-        <label for="country">Country</label>
-        <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-        </select>
-
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-    </form>
-</div>
-
-<div class="footer">
+<div class="footer container">
     <p>Footer</p>
 </div>
 

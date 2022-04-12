@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+.egal{
+    height: 6em;
+    width: 33.33%;
+}
+.column-left {
+    background-color: #7e7974;
+
+}
+.column-middle {
+    background-color: #3b3531;
+}
+
+.column-right {
+    background-color: #d4dede;
+
+
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .column-right, .column-left {
+        flex: 100%;
+    }
+}
+
