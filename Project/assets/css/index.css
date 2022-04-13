@@ -9,11 +9,32 @@ html, body {
     text-align: center;
     padding: 25px 0;
     font-size: 60px;
+    position: relative;
+    z-index: -1;
+}
+div.header.container{
+    margin-top: 82px;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+
+
+}
+.cheiasol{
+    height: 100px;
+    border-radius: 50%;
 }
 
 
+
+
 .imagine{
-    height: 48px;}
+    height: 48px;
+}
 
 .dropbtn {
     background: none;

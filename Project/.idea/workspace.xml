@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="12/04/2022">
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="upload fanf pic">
+      <change afterPath="$PROJECT_DIR$/assets/css/despre.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/cheiasol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/column.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/despre.php" beforeDir="false" afterPath="$PROJECT_DIR$/despre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +68,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -78,6 +87,11 @@
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC2\Desktop\Muzica\Project\assets\images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,7 +109,8 @@
       <workItem from="1649400248944" duration="621000" />
       <workItem from="1649407717422" duration="6486000" />
       <workItem from="1649659461783" duration="17178000" />
-      <workItem from="1649746443674" duration="15164000" />
+      <workItem from="1649746443674" duration="15717000" />
+      <workItem from="1649836398999" duration="12969000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -202,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649762784177</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="12/04/2022">
+      <created>1649763039132</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1649763039132</updated>
+    </task>
+    <task id="LOCAL-00017" summary="upload fanf pic">
+      <created>1649763575611</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1649763575611</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +254,7 @@
     <MESSAGE value="08/04/2022" />
     <MESSAGE value="11/04/2022" />
     <MESSAGE value="12/04/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="12/04/2022" />
+    <MESSAGE value="upload fanf pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload fanf pic" />
   </component>
 </project>

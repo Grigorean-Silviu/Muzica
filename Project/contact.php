@@ -16,28 +16,30 @@
 <body>
 
 <nav class="nav">
-    <ul class="container">
-        <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
-        <li class="dropdown">
-            <button class="dropbtn">Contul meu</button>
-            <div class="dropdown-content">
-                <a href="#">Intra in cont</a>
-                <a href="teorie.php">Teorie</a>
-                <a href="practica.php">Practica</a>
-                <a href="magazin.php">Magazin de instrumente</a>
-            </div>
-        <li><a class="active" href="contact.php">Contact</a></li>
-        <li><a href="despre.php">Despre</a></li>
-        <li><a href="index.php">Acasa</a></li>
-    </ul>
+    <div class="container">
+        <ul>
+            <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
+            <li class="dropdown">
+                <button class="dropbtn">Contul meu</button>
+                <div class="dropdown-content">
+                    <a href="#">Intra in cont</a>
+                    <a href="teorie.php">Teorie</a>
+                    <a href="practica.php">Practica</a>
+                    <a href="magazin.php">Magazin de instrumente</a>
+                </div>
+            <li><a class="active" href="contact.php">Contact</a></li>
+            <li><a href="despre.php">Despre</a></li>
+            <li><a href="index.php">Acasa</a></li>
+        </ul>
+    </div>
 </nav>
 
 
 
-
-<header class="header container">
+<div class="header container">
     <h1>Contact</h1>
-</header>
+    <div class="topleft"><img class="cheiasol" src="assets/images/cheiasol.jpg" alt="cheia sol"></div>
+</div>
 
 
 <address class="container">
@@ -45,11 +47,12 @@
     Visit us at:<br>
     Example.com<br>
 
-
-
-<div class="footer container">
-    <p>Footer</p>
-</div>
+    <footer class="footer">
+        <div class="container">
+            <p>Contact: Grigorean Silviu<br>
+                <a href="mailto:silviu.grigorean01@e-uvt.ro">silviu.grigorean01@e-uvt.ro</a></p>
+        </div>
+    </footer>
 
 
 </body>
