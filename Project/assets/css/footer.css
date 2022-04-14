@@ -1,29 +1,36 @@
-.footer {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
-    background-size: cover;
 
+.footer-dark {
+
+    color:#f0f9ff;
+    background-color:#282d32;
+    width: 100%;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
 
-
-.second {
-    margin-top: 40px;
-    margin-bottom: 50px;
+.first {
     color: rgb(206,206,206);
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
-.second2 {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    color: rgb(206,206,206);
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
 
-.second h4 {
-    font-size: 20px;
+.first h4::after {
+    content: '';
+    background: #66c83d;
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.title {
+
     letter-spacing: 3px;
     position: relative;
     margin-bottom: 20px;
@@ -32,6 +39,25 @@
     padding-bottom: 0.5em;
 }
 
+
+
+
+.second {
+
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.second2 {
+
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+
 .second h4::after {
     content: '';
     background: #66c83d;
@@ -39,7 +65,8 @@
     height: 2px;
     position: absolute;
     bottom: 0;
-    left: 40%;
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 
@@ -64,9 +91,6 @@
     text-decoration: none
 
 }
-
-
-
 .third {
     margin-top: 40px;
     margin-bottom: 50px;
@@ -77,8 +101,8 @@
 
 
 .third h4 {
-    font-size: 20px;
-    letter-spacing: 3px;
+    /*font-size: 20px;*/
+    /*letter-spacing: 3px;*/
     position: relative;
     margin-bottom: 20px;
     font-size: 1.6em;
@@ -120,67 +144,13 @@
     transition: 0.2s;
     text-shadow: 1px 1px 20px rgba(0,0,0,1);
 }
-
-
-@media screen and (max-width:1000px) {
-    .first {
-        text-align: center;
-    }
-
-    .first h4::after {
-        left: 40%;
-    }
-}
-
-@media screen and (max-width:1000px) {
-    .third {
-        text-align: center;
-    }
-
-    .third h4::after {
-        left: 40% !important;
-    }
-}
-
-.margin {
-    margin-left: 20px;
-}
-
 .line {
     height:2px;
     background-color:rgb(206,206,206);
     width:100%;
 }
 
-.row2{
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    text-align: center;
 
 
-}
-.egal2{
-    height: 6em;
-    width: 50%;
-}
-.column-left2 {
-    background-color: #7e7974;
-
-}
-.column-middle2 {
-    background-color: #3b3531;
-}
-
-.column-right2 {
-    background-color: #d4dede;
 
 
-}
-
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 800px) {
-    .column-right, .column-left {
-        flex: 100%;
-    }
-}

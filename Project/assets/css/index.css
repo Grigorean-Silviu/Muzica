@@ -82,6 +82,53 @@ div.header.container{
     margin: auto;
 }
 
+@media screen and (min-width: 950px) {
+    .header {
+        font-size: 80px;
+    }
+}
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 950px) {
+    .header {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 840px) {
+    .cheiasol {
+        height: 60px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .row  {
+        flex-direction: row;
+
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .row  {
+       flex-direction: column;
+
+
+    }
+}
+@media screen and (min-width: 1000px) {
+    .column-width {
+        width: 33.33%;
+
+
+    }
+}
+@media screen and (max-width: 1000px) {
+    .column-width  {
+        width: 100%;
+
+
+    }
+}
+
 
 
 

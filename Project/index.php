@@ -43,67 +43,44 @@
 
 <div class="row container">
 
-    <div class="column-left egal">1</div>
-    <div class="column-middle egal">2</div>
-    <div class="column-right egal">3</div>
+    <div class="column-left column-width"><a href="teorie.php">Teorie</div>
+    <div class="column-middle column-width"><a href="practica.php">Practica</a> </div>
+    <div class="column-right column-width"><a href="magazin.php">Magazin de instrumente</a> </div>
 
 
 </div>
+<!-- footer -->
+    <footer class="footer-dark">
+        <div class="footer-container">
+                <div class="first width-33">
+                    <h4 class="title">Navigare</h4>
+                        <ul class="colfirst">
 
+                            <li><a href="index.php">Acasa</a></li>
+                            <li><a href="despre.php">Despre</a></li>
+                            <li><a href="contact.php">Contact</a></li>
 
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="row2 container">
-                <div class="second">
-                    <h4> Navigate</h4>
-                    <ul>
-                        <div class="column-left2 egal2">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        </div>
+                        </ul>
+
+                </div>
+
+                <div class="second width-33">
+                    <h4 class="title">Invata</h4>
+                    <ul class="col">
+
+                            <li><a href="teorie.php">Teorie</a></li>
+                            <li><a href="practica.php">Practica</a></li>
+
                     </ul>
                 </div>
-            </div>
 
-            <div class="row2 container">
-                <div class="third">
-                    <h4> Contact</h4>
-                    <ul>
-                        <div class="column-right2 egal2">
-                        <li>Andreea Mihaela Bunget </li>
-                        <li></li>
+                <div class="third width-33">
+                    <h4 class="title">Company Name</h4></div>
 
-
-                        <li><i class="far fa-envelope"></i> andreea@andreeabunget.co.uk</li>
-                        <li><i class="far fa-envelope"></i> email@yahoo.com</li>
-
-
-                        <li><i class="fas fa-map-marker-alt"></i> London, UK </li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="line"></div>
-                <div class="second2">
-                    <a href="https://codepen.io/AndreeaBunget" target="_blank"> <i class="fab fa-codepen fa-2x margin"></i></a>
-                    <a href="https://github.com/WebDeveloperCodeRep" target="_blank"> <i class="fab fa-github fa-2x margin"></i></a>
-                    <a href="https://www.linkedin.com/in/andreea-mihaela-bunget-a4248812b/" target="_blank"> <i class="fab fa-linkedin fa-2x margin"></i></a>
-                    <a href="https://www.youtube.com/channel/UCX674BUbomzBCakbb75lhfA?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-2x margin" ></i></a>
+    </footer>
 
-                </div>
 
-            </div>
-        </div>
-    </div>
-</div>
 
 </body>
 </html>
