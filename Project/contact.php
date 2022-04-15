@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/column.css">
+
 
     <meta name="description" content="Contact magazin de instrumente pentru fanfara">
     <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara">
@@ -38,7 +40,7 @@
 
 <div class="header container">
     <h1>Contact</h1>
-    <div class="topleft"><img class="cheiasol" src="assets/images/cheiasol.jpg" alt="cheia sol"></div>
+    <div class="topleft"><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
 </div>
 
 
@@ -46,13 +48,38 @@
     Mail <a href="mailto:silviu.grigorean01@e-uvt.ro">Grigorean Silviu</a><br>
     Visit us at:<br>
     Example.com<br>
+</address>
 
-    <footer class="footer">
-        <div class="container">
-            <p>Contact: Grigorean Silviu<br>
-                <a href="mailto:silviu.grigorean01@e-uvt.ro">silviu.grigorean01@e-uvt.ro</a></p>
+<!-- footer -->
+<footer class="footer-dark">
+    <div class="footer-container">
+        <div class="first width-33">
+            <h4 class="title">Navigare</h4>
+            <ul class="colfirst">
+
+                <li><a href="index.php">Acasa</a></li>
+                <li><a href="despre.php">Despre</a></li>
+                <li><a href="contact.php">Contact</a></li>
+
+            </ul>
+
         </div>
-    </footer>
+
+        <div class="second width-33">
+            <h4 class="title">Invata</h4>
+            <ul class="col">
+
+                <li><a href="teorie.php">Teorie</a></li>
+                <li><a href="practica.php">Practica</a></li>
+
+            </ul>
+        </div>
+
+        <div class="third width-33">
+            <h4 class="title">Company Name</h4></div>
+
+    </div>
+</footer>
 
 
 </body>

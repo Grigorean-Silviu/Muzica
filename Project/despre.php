@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/table.css">
     <link rel="stylesheet" type="text/css" href="assets/css/despre.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/column.css">
 
     <meta name="description"
           content="Tot ce trebuie sa stii despre teoria si practica la instrumentele de fanfara sau de suflat">
@@ -132,8 +133,36 @@
     </tr>
 
 </table>-->
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<footer class="container">FOOTER</footer>
+<!-- footer -->
+<footer class="footer-dark">
+    <div class="footer-container">
+        <div class="first width-33">
+            <h4 class="title">Navigare</h4>
+            <ul class="colfirst">
+
+                <li><a href="index.php">Acasa</a></li>
+                <li><a href="despre.php">Despre</a></li>
+                <li><a href="contact.php">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="second width-33">
+            <h4 class="title">Invata</h4>
+            <ul class="col">
+
+                <li><a href="teorie.php">Teorie</a></li>
+                <li><a href="practica.php">Practica</a></li>
+
+            </ul>
+        </div>
+
+        <div class="third width-33">
+            <h4 class="title">Company Name</h4></div>
+
+    </div>
+</footer>
 
 
 </body>
