@@ -105,7 +105,7 @@ div.header.container{
         height: 60px;
     }
 }
-@media screen and (min-width: 1000px) {
+/*@media screen and (min-width: 1000px) {
     .row  {
         flex-direction: row;
     }
@@ -115,7 +115,7 @@ div.header.container{
     .row  {
        flex-direction: column;
     }
-}
+}*/
 @media screen and (min-width: 1000px) {
     .column-width {
         width: 33.33%;
