@@ -1,12 +1,15 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
 <head>
 
-    <title>Magazin de instrumente pentru suflat</title>
-    <meta name="description" content="Cumpara instrumente ieftine si bune pentru fanfara">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Hello, world!</title>
 </head>
 <body>
+<h1>Hello, world!</h1>
+
 
 </body>
 </html>

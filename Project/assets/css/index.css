@@ -7,10 +7,14 @@ html, body {
 .header {
     background-color: #f2f2f2;
     text-align: center;
-    padding: 25px 0;
+    padding: 25px 0 ;
     font-size: 60px;
     position: relative;
     z-index: -1;
+
+}
+header h1{
+    padding: 15 px;
 }
 div.header.container{
     margin-top: 82px;
@@ -82,18 +86,20 @@ div.header.container{
     margin: auto;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 657px) {
     .header {
         font-size: 80px;
     }
 }
 
 /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 970px) {
     .header {
         font-size: 30px;
     }
 }
+
+
 @media screen and (max-width: 840px) {
     .cheiasol {
         height: 60px;
@@ -102,30 +108,27 @@ div.header.container{
 @media screen and (min-width: 1000px) {
     .row  {
         flex-direction: row;
-
-
     }
 }
 
 @media screen and (max-width: 1000px) {
     .row  {
        flex-direction: column;
-
-
     }
 }
 @media screen and (min-width: 1000px) {
     .column-width {
         width: 33.33%;
-
-
     }
 }
 @media screen and (max-width: 1000px) {
     .column-width  {
         width: 100%;
-
-
+    }
+}
+@media screen and (max-width: 400px) {
+    .nav a {
+        text-align: center;
     }
 }
 
