@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="15.04.2022">
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="19.04.2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/column.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/column.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +112,8 @@
       <workItem from="1650440296273" duration="10000" />
       <workItem from="1650440337619" duration="248000" />
       <workItem from="1650441276529" duration="347000" />
-      <workItem from="1650441738266" duration="3700000" />
+      <workItem from="1650441738266" duration="3769000" />
+      <workItem from="1650521567602" duration="5776000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650440426016</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="19.04.2022">
+      <created>1650447351378</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650447351378</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +295,7 @@
     <MESSAGE value="upload fanf pic" />
     <MESSAGE value="14.04.2022" />
     <MESSAGE value="15.04.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.04.2022" />
+    <MESSAGE value="19.04.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.04.2022" />
   </component>
 </project>
